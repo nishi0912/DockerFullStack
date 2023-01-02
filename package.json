@@ -3,15 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3005",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "proxy": "http://localhost:3050/",
   "dependencies": {
+    "antd": "^4.19.2",
+    "axios": "^0.27.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.6",
     "next": "12.1.0",
+    "next-auth": "^4.3.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.28.0",
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
     "eslint": "8.10.0",

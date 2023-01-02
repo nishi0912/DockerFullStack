@@ -1,3 +1,5 @@
+@import "~antd/dist/antd.css";
+
 html,
 body {
   padding: 0;
@@ -13,4 +15,214 @@ a {
 
 * {
   box-sizing: border-box;
+}
+:root {
+  --BASE_COLOR: #ffffff !important;
+  --COMPLEMENTARY_COLOR: cornflowerblue !important;
+  --ACTION-COLOR: #000000 !important;
+}
+.neumorphism {
+  background: #ffffff !important;
+  box-shadow: -20px -20px 60px #d9d9d9, 20px 20px 60px #ffffff !important;
+}
+.relative {
+  position: relative !important;
+}
+/* ----------- Component screens ----------- */
+.root-screen {
+  max-height: 80vh !important;
+  overflow: hidden !important;
+  overflow-y: scroll !important;
+  scroll-behavior: smooth !important;
+  background: var(--BASE_COLOR) !important;
+  padding: 40px 100px !important;
+}
+.flexbox {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.flexbox-col {
+  flex-direction: column !important;
+}
+.disabled {
+  opacity: 0.5 !important;
+  color: #000000 !important;
+  background: #bdbdbd !important;
+}
+
+/* ------ Compose Styles */
+.composeHeading {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  font-size: 30px !important;
+  line-height: 36px !important;
+  color: #000000 !important;
+}
+.composeTitle {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  color: #000000 !important;
+}
+.composeInput {
+  padding: 10px 10px !important;
+  border-radius: 8px !important;
+  border: none !important;
+}
+.composeInputContainer .ant-input {
+  margin: 0px !important;
+  background: #ffffff !important;
+  box-shadow: -20px -20px 60px #d9d9d9, 20px 20px 60px #ffffff !important;
+}
+.composeInputContainer .ant-input:hover {
+  border: none !important;
+}
+.composeInputContainer .ant-input:focus {
+  border: none !important;
+}
+.composePublish {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  color: var(--BASE_COLOR) !important;
+  padding: 20px 30px !important;
+  background: var(--COMPLEMENTARY_COLOR) !important;
+  border-radius: 10px;
+  /* box-shadow: 20px 20px 60px #557fc9, -20px -20px 60px #73abff !important; */
+  border: 0.5px solid #ffffff !important;
+}
+.composeDisabled {
+  color: var(--ACTION-COLOR) !important;
+  opacity: 0.5 !important;
+}
+/* -------------- Home Blogs -----------*/
+.home-screen {
+  width: 100% !important;
+  min-height: 100vh !important;
+  background-color: #ffffff !important;
+  padding-bottom: 200px !important;
+}
+.blog-card {
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 12px !important;
+  width: 100% !important;
+  margin: 10px 10px !important;
+  cursor: pointer !important;
+  padding: unset !important;
+}
+.blog-card-content {
+  padding: 10px 20px 20px !important;
+}
+.blog-card:hover {
+  transform: scale(1);
+  /* animation: imageAnimation 1s linear 0.1s 1 alternate !important; */
+}
+
+@keyframes imageAnimation {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}
+.blog-name {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  font-size: 28px !important;
+  line-height: 34px !important;
+  color: #000000 !important;
+  text-transform: capitalize !important;
+  margin-top: 10px !important;
+}
+.blog-content {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+  font-size: 18px !important;
+  line-height: 24px !important;
+  margin-top: 5px !important;
+}
+.blog-creator,
+.blog-createdAt {
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  margin-top: 15px !important;
+  text-align: end !important;
+}
+.blog-createdAt {
+  font-weight: 300 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  margin-top: 5px !important;
+}
+
+/* -------------- Quotes -------------- */
+
+.quotes-display {
+  border-radius: 50px !important;
+  background: var(--BASE_COLOR) !important;
+  box-shadow: -20px -20px 60px #d9d9d9, 20px 20px 60px #ffffff !important;
+  padding: 50px 30px !important;
+  position: relative !important;
+  width: 100% !important;
+  border-radius: 20px !important;
+}
+.quotes-arrows {
+  cursor: pointer !important;
+  background: transparent !important;
+}
+.quotes-left-arrow {
+}
+.quotes-right-arrow {
+}
+.quotes-content-text,
+.quotes-author-text {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  font-size: 18px !important;
+  line-height: 24px !important;
+  color: var(--ACTION-COLOR) !important;
+  text-align: center !important;
+}
+.quotes-author-text {
+  font-size: 14px !important;
+  line-height: 18px !important;
+  font-weight: 300 !important;
+}
+/* ------- Footer Styles ---------- */
+.footer-screen {
+  background-color: #e0e0e0 !important;
+  padding: 50px 0px !important;
+  width: 100% !important;
+  /* /* position: absolute !important; */
+  bottom: 0px !important;
+}
+.footer-text {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+  font-size: 24px !important;
+  line-height: 30px !important;
+  color: #ffffff !important;
+  text-align: center !important;
+}
+.footer-heart-icon {
+  color: #ffffff !important;
+  font-size: 20px !important;
+  margin-left: 10px !important;
 }
