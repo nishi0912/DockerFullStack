@@ -1,0 +1,36 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  documentary_name: MyString
+  book_name: MyString
+  slug: MyString
+  views: 
+  price: 
+  books: one
+
+two:
+  documentary_name: MyString
+  book_name: MyString
+  slug: MyString
+  views: 
+  price: 
+  books: two
+
+
+# == Schema Information
+#
+# Table name: documentaries
+#
+#  id                  :integer         not null, primary key
+#  documentary_name    :string
+#  book_name           :string
+#  slug                :string
+#  views               :decimal(, )
+#  price               :decimal(, )
+#  book_id             :integer         not null
+#  created_at          :datetime        not null
+#  updated_at          :datetime        not null
+#  deleted_at          :datetime
+#  documentary_content :string
+#
+

@@ -1,0 +1,12 @@
+.git
+.gitignore
+docker-compose.*
+.dockerignore
+Dockerfile
+log/*
+node_modules/*
+public/assets/*
+storage/*
+public/packs/*
+public/packs-test/*
+tmp/*

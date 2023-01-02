@@ -1,0 +1,287 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - '2022-05-03 07:23:48.792541'
+    - '2022-05-03 07:23:48.792541'
+  - - schema_sha1
+    - fa4d528e5e943d186b8a7ad0252317ebe308aa96
+    - '2022-05-03 07:23:48.801088'
+    - '2022-05-03 07:23:48.801088'
+
+---
+books:
+  columns:
+  - id
+  - name
+  - content
+  - author
+  - sales
+  - created_at
+  - updated_at
+  - deleted_at
+  - slug
+  - published
+  - price
+  records: 
+  - - 1
+    - Mark Dwene
+    - Hello
+    - Dwayne
+    -
+    - '2022-05-03 07:24:42.174142'
+    - '2022-05-03 07:24:42.174142'
+    -
+    - mark-dwene
+    - 'true'
+    - 5000
+  - - 2
+    - Brandon Clauss
+    - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+      Ipsum has been the industry's standard dummy text ever since the 1500s, when
+      an unknown printer took a galley of type and scrambled it to make a type specimen
+      book. It has survived not only five centuries, but also the leap into electronic
+      typesetting, remaining essentially unchanged. It was popularised in the 1960s
+      with the release of Letraset sheets containing Lorem Ipsum passages, and more
+      recently with desktop publishing software like Aldus PageMaker including versions
+      of Lorem Ipsum.
+    - Varenica
+    -
+    - '2022-05-03 07:24:42.201708'
+    - '2022-05-03 13:21:23.857567'
+    -
+    - brandon-fin
+    - 'true'
+    - 400
+  - - 3
+    - Tested
+    - There are many variations of passages of Lorem Ipsum available, but the majority
+      have suffered alteration in some form, by injected humour, or randomised words
+      which don't look even slightly believable. If you are going to use a passage
+      of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
+      in the middle of text. All the Lorem Ipsum generators on the Internet tend to
+      repeat predefined chunks as necessary, making this the first true generator
+      on the Internet. It uses a dictionary of over 200 Latin words, combined with
+      a handful of model sentence structures, to generate Lorem Ipsum which looks
+      reasonable. The generated Lorem Ipsum is therefore always free from repetition,
+      injected humour, or non-characteristic words etc.
+    - Mark Wings
+    -
+    - '2022-05-05 11:27:40.861378'
+    - '2022-05-05 11:27:40.861378'
+    -
+    - tested
+    -
+    -
+
+---
+documentaries:
+  columns:
+  - id
+  - documentary_name
+  - book_name
+  - slug
+  - views
+  - price
+  - book_id
+  - created_at
+  - updated_at
+  - deleted_at
+  records: 
+  - - 1
+    - Lord of the Rings
+    - Dolittle
+    - lord-of-the-rings
+    - 120
+    - 1200
+    - 1
+    - '2022-05-03 07:24:42.291705'
+    - '2022-05-03 07:24:42.291705'
+    -
+  - - 2
+    - Snyder Cut
+    - Brandon Fin
+    - snyder-cut
+    - 40
+    - 120
+    - 2
+    - '2022-05-03 07:24:42.302094'
+    - '2022-05-03 07:24:42.302094'
+    - '2022-05-04 08:29:26.695372'
+  - - 3
+    - Pirates of Carabbian-5
+    - Brandon Fin
+    - pirates-of-carabbian
+    - 300
+    - 1070
+    - 2
+    - '2022-05-03 08:28:00.970482'
+    - '2022-05-04 08:37:08.435784'
+    - '2022-05-08 10:33:40.914875'
+  - - 4
+    - Chronicles of Narnia
+    -
+    - chronicles-of-narnia
+    -
+    - 20
+    - 1
+    - '2022-05-08 08:20:20.249775'
+    - '2022-05-08 08:20:20.249775'
+    -
+  - - 5
+    - King of Asgard
+    -
+    - king-of-asgard
+    -
+    - 20
+    - 1
+    - '2022-05-08 08:22:49.648062'
+    - '2022-05-08 08:22:49.648062'
+    -
+  - - 6
+    - Yashis toksedo
+    -
+    - yashis-toksedo
+    -
+    - 100
+    - 1
+    - '2022-05-08 08:23:20.310580'
+    - '2022-05-08 08:23:20.310580'
+    -
+  - - 7
+    - Georgia Bulls
+    -
+    - georgia-bulls
+    -
+    - 150
+    - 1
+    - '2022-05-08 08:28:32.407747'
+    - '2022-05-08 08:28:32.407747'
+    -
+  - - 8
+    - Euphoria
+    -
+    - euphoria
+    -
+    - 209
+    - 1
+    - '2022-05-08 08:28:43.346352'
+    - '2022-05-08 08:28:43.346352'
+    -
+  - - 9
+    - hh
+    -
+    - hh
+    -
+    - 88
+    - 1
+    - '2022-05-08 08:30:34.420683'
+    - '2022-05-08 08:30:34.420683'
+    -
+  - - 10
+    - kii
+    -
+    - kii
+    -
+    - 0
+    - 1
+    - '2022-05-08 08:31:33.190558'
+    - '2022-05-08 08:31:33.190558'
+    -
+  - - 11
+    - ee
+    -
+    - ee
+    -
+    - 88
+    - 1
+    - '2022-05-08 08:32:59.251880'
+    - '2022-05-08 08:32:59.251880'
+    -
+  - - 12
+    - last
+    -
+    - last
+    -
+    - 12
+    - 1
+    - '2022-05-08 08:33:59.962517'
+    - '2022-05-08 08:33:59.962517'
+    -
+  - - 13
+    - Final
+    -
+    - final
+    -
+    - 100
+    - 1
+    - '2022-05-08 08:34:53.554143'
+    - '2022-05-08 08:34:53.554143'
+    - '2022-05-08 08:44:02.230138'
+  - - 14
+    - Testing
+    -
+    - testing
+    -
+    - 200
+    - 1
+    - '2022-05-08 08:35:27.387211'
+    - '2022-05-08 08:35:27.387211'
+    - '2022-05-08 08:44:00.674025'
+  - - 15
+    - Hello
+    -
+    - hello
+    -
+    - 120
+    - 1
+    - '2022-05-08 08:36:06.878545'
+    - '2022-05-08 08:36:06.878545'
+    - '2022-05-08 08:42:55.625353'
+  - - 16
+    - You
+    -
+    - you
+    -
+    - 22
+    - 1
+    - '2022-05-08 08:37:16.220927'
+    - '2022-05-08 08:37:16.220927'
+    - '2022-05-08 08:41:14.922055'
+  - - 17
+    - Shang chi
+    -
+    - shang-chi
+    -
+    - 299
+    - 1
+    - '2022-05-08 09:51:31.332088'
+    - '2022-05-08 09:51:31.332088'
+    - '2022-05-09 07:50:25.232445'
+  - - 18
+    - Green Patterns
+    -
+    - green-patterns
+    -
+    - 300
+    - 2
+    - '2022-05-08 10:33:25.905494'
+    - '2022-05-08 10:33:25.905494'
+    -
+  - - 19
+    - Eternals
+    -
+    - eternals
+    -
+    - 600
+    - 1
+    - '2022-05-09 07:52:56.814132'
+    - '2022-05-09 07:52:56.814132'
+    -

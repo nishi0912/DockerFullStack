@@ -13,3 +13,271 @@
  *= require_tree .
  *= require_self
  */
+
+@import "antd/dist/antd.min.css";
+
+:root {
+  --PRIMARY_COLOR: linear-gradient(to right, #000428, #004e92) !important;
+  --WHITE_COLOR: #ffffff !important;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+@font-face {
+  font-family: "CircularStd-500";
+  src: url("../fonts/CircularStd-Medium.ttf");
+}
+
+@font-face {
+  font-family: "CircularStd-700";
+  src: url("../fonts/CircularStd-Bold.ttf");
+}
+
+@font-face {
+  font-family: "CircularStd-900";
+  src: url("../fonts/CircularStd-Black.ttf");
+}
+.button-default {
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+}
+.pointer {
+  cursor: pointer !important;
+}
+.disable {
+  opacity: 0.5 !important;
+}
+.relative {
+  position: relative !important;
+}
+.flexbox {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+}
+/*----- Homepage -----*/
+.main-container {
+  background: var(--PRIMARY_COLOR) !important;
+  min-height: 100vh !important;
+  position: relative !important;
+}
+.bubbles {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important;
+  border: 1px solid var(--WHITE_COLOR) !important;
+  background-color: transparent !important;
+  position: absolute !important;
+}
+.bubble-1 {
+  bottom: 20px !important;
+  left: 20px !important;
+}
+.bubble-2 {
+  width: 75px !important;
+  height: 75px !important;
+  bottom: 120px !important;
+  left: 120px !important;
+}
+.bubble-3 {
+  width: 50px !important;
+  height: 50px !important;
+  bottom: 195px !important;
+  left: 195px !important;
+}
+.homepage-container {
+  padding: 20px 50px !important;
+  background: transparent !important;
+}
+/* ----- Header ----- */
+.header-container {
+  padding: 30px 20px !important;
+  /* background-color: #fffdd0 !important; */
+  background: var(--PRIMARY_COLOR) !important;
+  /* box-shadow: 20px 20px 60px #d9d7b1, -20px -20px 60px #ffffef !important; */
+  width: 100% !important;
+  border-bottom: 1px solid var(--WHITE_COLOR) !important;
+}
+.header-texts,
+.header-book-name,
+.header-book-content,
+.header-book-author,
+.view-book-docs-name,
+.view-book-docs-price,
+.header-book-price,
+.document-error,
+.view-book-no-docs,
+.header-book-count,
+.header-book-views {
+  font-family: "CircularStd-500" !important;
+  font-style: normal !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+}
+.header-book-count,
+.header-book-views {
+  font-size: 14px !important;
+  line-height: 18px !important;
+  margin-left: 10px !important;
+}
+.header-book-completion,
+.header-book-published {
+  width: 80% !important;
+  height: 20px !important;
+  border-top-left-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+  border-top-right-radius: 50px !important;
+  border-bottom-right-radius: 50px !important;
+  background: white !important;
+  position: relative !important;
+}
+.header-book-published::before {
+  content: " " !important;
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  background-color: green !important;
+  width: 50% !important;
+  border-top-left-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+  border-top-right-radius: 50px !important;
+  border-bottom-right-radius: 50px !important;
+}
+.header-book-price {
+  font-size: 14px !important;
+  line-height: 18px !important;
+}
+.view-book-docs-name {
+  font-size: 14px !important;
+  line-height: 18px !important;
+}
+.header-book-name {
+  font-size: 24px !important;
+  line-height: 30px !important;
+}
+.header-book-content {
+  font-size: 18px !important;
+  line-height: 28px !important;
+  margin-top: 10px !important;
+}
+.header-book-author {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-align: end !important;
+  margin-top: 10px !important;
+}
+.header-navigate {
+  text-align: end !important;
+}
+
+/* ---- View ---- */
+.view-book-screen {
+  background: var(--PRIMARY_COLOR) !important;
+  min-height: 100vh !important;
+}
+.view-book-container {
+  padding: 30px 40px !important;
+}
+.view-book-edit-textarea {
+  width: 100% !important;
+  border-radius: 4px !important;
+  padding: 10px !important;
+  margin: 20px 0px 0px !important;
+}
+.view-edit-book {
+  background: var(--WHITE_COLOR) !important;
+  padding: 10px 20px !important;
+  border-radius: 4px !important;
+  margin-top: 20px !important;
+}
+.view-book-no-docs {
+  font-size: 20px !important;
+  line-height: 24px !important;
+  text-align: center !important;
+  margin-top: 15% !important;
+}
+.view-document-card {
+  padding: 20px !important;
+  box-shadow: 0px 0px 5px gray !important;
+  margin: 10px !important;
+}
+.view-navigate-icon {
+  position: absolute !important;
+  top: 30px !important;
+  left: 5px !important;
+}
+/* ------- Documents ------- */
+.documentary-container {
+  margin: 30px 20px !important;
+}
+.documentary-title {
+  margin: 10px 0px !important;
+}
+.document-inputs {
+  width: 50% !important;
+  padding: 10px !important;
+  border-radius: 4px !important;
+  outline: 0 !important;
+}
+.document-error {
+  color: "red" !important;
+}
+.document-create-btn {
+  background-color: #ffffff !important;
+  padding: 10px !important;
+  border-radius: 4px !important;
+  border: none !important;
+}
+.document-create-btn-submit,
+.document-create-watch {
+  background-color: cornflowerblue !important;
+  color: #ffffff !important;
+}
+.document-create-btn-submit {
+  background: green !important;
+  cursor: pointer !important;
+}
+/* ------- Books --------- */
+.book-container {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+.book-screen {
+  padding: 10px 30px !important;
+}
+.book-background {
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: -1 !important;
+}
+.book-create-input {
+  padding: 10px !important;
+  border: 1px solid gray !important;
+  border-radius: 4px !important;
+  outline: none !important;
+  margin: 10px 0px !important;
+}
+.book-publish-btn {
+  background: var(--PRIMARY_COLOR) !important;
+  padding: 10px !important;
+  border-radius: 4px !important;
+  color: var(--WHITE_COLOR) !important;
+  border: none !important;
+  outline: none !important;
+}
